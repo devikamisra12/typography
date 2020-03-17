@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+/* dl, dt, dd, ol, ul, li, */
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+/* ol, ul {
+	list-style: none;
+} */
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* general */
+
+*  {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cont-main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.text-white {
+    color: azure;
+    font-size: 20px;
+
+}
+.text-heading {
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+    padding: 15px;
+}
+.color {
+    background-color: #D4CEA7;
+}
+
+/* header */
+
+.text-white a {
+    color: azure;
+    margin-left: 30px;
+}
+.head {
+    background-color:   #E95B14 ;
+    padding: 15px;
+}
+
+/* lists */
+
+.box {
+    background-color:   #005979 ;
+    padding: 40px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px 4px rgb(93, 93, 93);
+    width: 300px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    /* align-content: flex-start; */
+}
+
+/* secondary */
+
+.secondary {
+    padding: 40px;
+}
+.h3 {
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+/* footer */
+
+.last {
+    background-color: #252C22 ;
+    padding: 20px;
+}

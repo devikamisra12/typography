@@ -1,0 +1,339 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* general */
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.heading {
+    color: #4A4A4A;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    text-transform: uppercase;
+}
+/* .text {
+    padding: 20px;
+} */
+/* header */
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    padding-top: 20px;
+}
+.logo {
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: 600;
+}
+.nav-menu {
+    color: blanchedalmond;
+    margin-left: 20px;
+    font-size: medium;
+    font-weight: 600;
+    font-size: small;
+}
+/* hero */
+.hero {
+    background-image: url(../media/banner.svg);
+    position: relative;
+    text-align: center;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    min-height: 400px;
+    background-color: #323347;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-position: bottom;
+}
+/* hero */
+h1 {
+font-size: 40px;
+font-weight: 700;
+color: whitesmoke;
+text-transform: uppercase;
+color: whitesmoke;
+}
+.hero p {
+    padding: 30px;
+    padding-top: 10px;
+    color: #E96C77;
+    font-size: 25px;
+}
+.btn {
+    padding:10px;
+   border: 1px solid #E96C77;
+   background-color: #E96C77;
+   color: white;
+   text-transform: uppercase;
+}
+
+/* second */
+.second {
+    background-color: #F5F5F5;
+    padding: 80px 0 ;
+}
+.two {
+    text-align: center;
+    
+}
+.second-parent {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px ;
+}
+.second-child {
+    background-color: ivory ;
+    padding: 30px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+}
+.circle {
+    background-image: linear-gradient(to bottom left, #E96C77 50%,#D1616B 50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    padding: 30px;
+
+}
+
+/* line */
+hr {
+    border: 1px solid gray;
+    width: 150px;
+    margin: 5px;
+}
+.tw {
+    width: 120px;
+}
+.thr {
+    width: 90px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* margin: -15px; */
+    justify-content: center;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin: -15px; */
+    justify-content: center;
+}
+.class-container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pi {
+    border:1px solid honeydew;
+}
+/* pink */
+.pink {
+    background-color: #E96C77;
+}
+.three {
+    color: ivory;
+    text-align: center;
+}
+.third {
+    flex-wrap: wrap;
+}
+.mod {
+    /* background-color: rgba(255, 255, 240, 0.808); */
+    background-color: #EC828C;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.new {
+    background-image: linear-gradient( to bottom left,#5A5B6A 50%, #525360 50%);
+}
+
+/* secong image */
+.sub {
+    background-color: transparent;
+}
+.button {
+    border: 1px solid gray;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.877);
+    margin-top: 70px;
+}
+.sed {
+    text-align: center;
+}
+/* contact */
+.end {
+    text-align: center;
+}
+.contact {
+    background-color: #F5F5F5;
+}
+.last {
+    background-color: #FFFFFF;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* width: 70%; */
+    
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    width: 45%;
+}
+i {
+    background-color: rgba(128, 128, 128, 0.767) ;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    /* line-height: 1px; */
+    color: rgba(0, 0, 255, 0.712);
+
+}
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    
+}
+.list-b {
+    width: 50%;
+}
+
+.fa-cog, .fa-check , .fa-tv , .fa-chart-bar, .fa-lightbulb, .fa-user{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    background: transparent;
+    font-weight: 600;
+    /* display: block; */
+    padding: 4px;
+}
+.fa-lightbulb {
+    margin-left: 5px;
+}
+.fa-tv {
+    margin-left: -5px
+}
+
+.send {
+    background-color: #E96C77 ;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.reset {
+    padding: 10px;
+    border: 1px solid gray;
+    background: transparent;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* footer */
+footer {
+    background-color: #ECECEC;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+li, .copy {
+    padding: 10px;
+    color:  gray ;
+    font-size: 15px;
+}
+.line {
+    padding: 5px;
+}
+.copy {
+    text-align: center;
+    display:block;
+}
